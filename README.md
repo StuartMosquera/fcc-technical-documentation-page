@@ -1,2 +1,11 @@
-# fcc-technical-documentation-page
-Technical Documentation Page project for freeCodeCamp.
+# Technical Documentation Page
+This is my **Technical Documentation Page**, created as part of the requirements for the **Responsive Web Design** certification from [freeCodeCamp](https://www.freecodecamp.org/).
+
+Check out my profile: [StuartMosquera on freeCodeCamp](https://www.freecodecamp.org/StuartMosquera).
+
+## How to use
+1. Download or clone the repository.
+2. Open the ``index.html`` file in your favorite web browser.
+
+## License
+This project is open source and available under the [MIT License](./LICENSE).
