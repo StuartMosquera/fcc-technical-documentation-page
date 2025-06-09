@@ -14,11 +14,57 @@ html {
 body {
   background-color: #f5f5f5;
   color: #404040;
-  font: 400 1rem / 1.5 "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 1.6em;
+}
+
+h2 {
+  font-size: 1.55em;
+}
+
+h1,
+h2 {
+  color: #000;
+  font-weight: 500;
+} 
+
+p {
+  font-size: 0.95em;
+  margin-left: 1.2rem;
+}
+
+p,
+pre {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+pre {
+  background-color: rgb(211 211 211 / 0.25);
+  font-family: "Open Sans", sans-serif;
+  margin-left: 2rem;
+  max-width: 95%;
+  padding: 1rem;
+  white-space: pre-wrap;
+}
+
+code {
+  font-family: inherit;
+  font-size: 0.90em;
+}
+
+footer {
+  text-align: center;
 }
 
 .container {
-  margin: 1.875rem 0;
+  margin-bottom: 1.875rem;
+  margin-top: 1.875rem;
 }
 
 #navbar {
@@ -34,16 +80,14 @@ body {
 }
 
 #navbar header {
-  border-bottom: 1.5px solid;
-  padding: 1rem 0;
+  border-bottom: 1.5px solid #000;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
   text-align: center;
 }
 
-h1 {
-  font-size: 1.6em;
-}
-
 .nav-ul {
+  font-size: 0.98em;
   list-style-type: none;
   overflow-wrap: break-word;
   overflow-y: auto;
@@ -51,7 +95,10 @@ h1 {
 
 .nav-ul li {
   border-bottom: 1.5px solid;
-  padding: 0.6rem 0.8rem 0.6rem 2rem;
+  padding-bottom: 0.6rem;
+  padding-left: 2rem;
+  padding-right: 0.8rem;
+  padding-top: 0.6rem;
 }
 
 .nav-ul li:last-child {
@@ -70,59 +117,26 @@ h1 {
 }
 
 .main-section {
-  margin: 1.5rem 0;
   padding-right: 2rem;
 }
 
-h2 {
-  font-size: 1.55em;
-}
-
-h1,
-h2 {
-  color: #000;
-  font-weight: 500;
-}
-
+.main-section,
 article {
-  margin: 1.5rem 0;
-}
-
-p {
-  margin: 1rem 0 1rem 1.2rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 .main-section ol,
 .main-section ul {
-  margin: 1rem 0 1rem 5.5rem;
-}
-
-.main-section li {
-  margin: 1rem 0;
-}
-
-ol,
-ul,
-p {
   font-size: 0.95em;
+  margin-left: 5.5rem;
 }
 
-pre {
-  background-color: rgb(211 211 211 / 0.25);
-  font-family: unset;
-  margin: 1rem 0 1rem 2rem;
-  max-width: 95%;
-  padding: 1rem;
-  white-space: pre-wrap;
-}
-
-code {
-  font-family: inherit;
-  font-size: 0.90em;
-}
-
-footer {
-  text-align: center;
+.main-section ol,
+.main-section ul,
+.main-section li {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 footer p {
@@ -130,12 +144,20 @@ footer p {
 }
 
 @media screen and (max-width: 768px) {
+  p {
+    margin-left: 0.6rem;
+  }
+
+  pre {
+    margin-left: 1.4rem;
+  }
+  
   .container {
     margin-top: 0;
   }
 
   #navbar {
-    border-bottom: 2.5px solid;
+    border-bottom: 2.5px solid #000;
     border-right: none;
     height: 275px;
     position: static;
@@ -156,16 +178,8 @@ footer p {
     padding-right: 2.5rem;
   }
 
-  p {
-    margin-left: 0.6rem;
-  }
-
   .main-section ol,
   .main-section ul {
     margin-left: 4.5rem;
-  }
-
-  pre {
-    margin-left: 1.4rem;
   }
 }
