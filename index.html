@@ -12,7 +12,9 @@
 
   <body>
     <div class="container">
+      <!-- Nav -->
       <nav id="navbar">
+        <!-- Nav Header -->
         <header>
           <h1>MD Documentation</h1>
         </header>
@@ -31,38 +33,39 @@
         </ul>
       </nav>
 
+      <!-- Main Content -->
       <main id="main-doc">
         <section id="Introduction" class="main-section">
           <header>
             <h2>Introduction</h2>
           </header>
-          <article>
+          <div class="content-div">
             <p>Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML).</p>
             <p>Thus, "Markdown" is two things: </p>
             <ol>
               <li>A plain text formatting syntax</li>
               <li>and a software tool, written in Perl, that converts the plain text formatting to HTML</li>
             </ol>
-          </article>
+          </div>
         </section>
 
         <section id="Paragraphs" class="main-section">
           <header>
             <h2>Paragraphs</h2>
           </header>
-          <article>
+          <div class="content-div">
             <p>A paragraph is simply one or more consecutive lines of text, separated by one or more blank lines. (A blank line is any line that looks like a blank line — a line containing nothing but spaces or tabs is considered blank.) Normal paragraphs should not be indented with spaces or tabs.</p>
             <pre><code>Now is the time for all good men to come to the aid of their country. This is just a regular paragraph.
 
 The quick brown fox jumped over the lazy dog's back.</code></pre> 
-          </article>
+          </div>
         </section>
 
         <section id="Headers" class="main-section">
           <header>
             <h2>Headers</h2>
           </header>
-          <article>
+          <div class="content-div">
             <p>Markdown offers two styles of headers:</p>
             <p><em>Setext</em> and <em>atx</em>.</p>
             <ul>
@@ -76,42 +79,42 @@ A Second Level Header
 ---------------------
 
 ### Header 3</code></pre> 
-          </article>
+          </div>
         </section>
 
         <section id="Blockquotes" class="main-section">
           <header>
             <h2>Blockquotes</h2>
           </header>
-          <article>
+          <div class="content-div">
             <p>Blockquotes are indicated using email-style '&gt;' angle brackets.</p>
             <pre><code>> This is a blockquote.
 >
 > This is the second paragraph in the blockquote.
 >
 > ## This is an H2 in a blockquote</code></pre>
-          </article>
+          </div>
         </section>
 
         <section id="Phrase_Emphasis" class="main-section">
           <header>
             <h2>Phrase Emphasis</h2>
           </header>
-          <article>
+          <div class="content-div">
             <p>Markdown uses asterisks and underscores to indicate spans of emphasis.</p>
             <pre><code>Some of these words *are emphasized*.
 Some of these words _are emphasized also_.
 
 Use two asterisks for **strong emphasis**.
 Or, if you prefer, __use two underscores instead__.</code></pre>
-          </article>
+          </div>
         </section>
 
         <section id="Lists" class="main-section">
           <header>
             <h2>Lists</h2>
           </header>
-          <article>
+          <div class="content-div">
             <p>Unordered (bulleted) lists use asterisks, pluses, and hyphens (*, +, and -) as list markers. These three markers are interchangable;</p>
             <pre><code>* Candy.
 * Gum.
@@ -134,14 +137,14 @@ Or, if you prefer, __use two underscores instead__.</code></pre>
   With multiple paragraphs.
 
 * Another item in the list.</code></pre>
-          </article>
+          </div>
         </section>
 
         <section id="Links" class="main-section">
           <header>
             <h2>Links</h2>
           </header>
-          <article>
+          <div class="content-div">
             <p>Markdown supports two styles for creating links: <em>inline</em> and <em>reference</em>. With both styles, you use square brackets to delimit the text you want to turn into a link.</p>
             <p>Inline-style links use parentheses immediately after the link text. For example:</p>
             <pre><code>This is an [example link](http://example.com/).</code></pre>
@@ -159,14 +162,14 @@ Or, if you prefer, __use two underscores instead__.</code></pre>
 [The New York Times][NY Times].
 
 [ny times]: http://www.nytimes.com/</code></pre>
-          </article>
+          </div>
         </section>
 
         <section id="Images" class="main-section">
           <header>
             <h2>Images</h2>
           </header>
-          <article>
+          <div class="content-div">
             <p>Image syntax is very much like link syntax.</p>
             <p>Inline (titles are optional):</p>
             <pre><code>![alt text](/path/to/img.jpg "Title")</code></pre>
@@ -174,14 +177,14 @@ Or, if you prefer, __use two underscores instead__.</code></pre>
             <pre><code>![alt text][id]
 
 [id]: /path/to/img.jpg "Title"</code></pre>
-          </article>
+          </div>
         </section>
 
         <section id="Code" class="main-section">
           <header>
             <h2>Code</h2>
           </header>
-          <article>
+          <div class="content-div">
             <p>In a regular paragraph, you can create code span by wrapping text in backtick quotes. Any ampersands (&amp;) and angle brackets (&lt; or &gt;) will automatically be translated into HTML entities. This makes it easy to use Markdown to write about HTML example code:</p>
             <pre><code>I strongly recommend against using any `&lt;blink&gt;` tags.
 
@@ -194,18 +197,18 @@ you've got to put paragraph tags in your blockquotes:
         &lt;blockquote&gt;
           &lt;p&gt;For example.&lt;/p&gt;
         &lt;/blockquote&gt;</code></pre>
-          </article>
+          </div>
         </section>
 
         <section id="Reference" class="main-section">
           <header>
             <h2>Reference</h2>
           </header>
-          <article>
+          <div class="content-div">
             <ul>
               <li>All the documentation in this page is taken from <a href="https://daringfireball.net/projects/markdown/" target="_blank">Daring Firewall</a></li>
             </ul>
-          </article>
+          </div>
         </section>
 
         <footer>
