@@ -121,20 +121,20 @@ footer {
 }
 
 .main-section,
-article {
+.content-div {
   margin-bottom: 1.5rem;
   margin-top: 1.5rem;
 }
 
-.main-section ol,
-.main-section ul {
+.content-div ol,
+.content-div ul {
   font-size: 0.95em;
   margin-left: 5.5rem;
 }
 
-.main-section ol,
-.main-section ul,
-.main-section li {
+.content-div ol,
+.content-div ul,
+.content-div li {
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
@@ -178,8 +178,8 @@ footer p {
     padding-right: 2.5rem;
   }
 
-  .main-section ol,
-  .main-section ul {
+  .content-div ol,
+  .content-div ul {
     margin-left: 4.5rem;
   }
 }
