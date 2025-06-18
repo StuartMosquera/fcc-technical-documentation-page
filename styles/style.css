@@ -46,24 +46,6 @@ pre {
   margin-top: 1rem;
 }
 
-pre {
-  background-color: rgb(211 211 211 / 0.25);
-  font-family: "Open Sans", sans-serif;
-  margin-left: 2rem;
-  max-width: 95%;
-  padding: 1rem;
-  white-space: pre-wrap;
-}
-
-code {
-  font-family: inherit;
-  font-size: 0.90em;
-}
-
-footer {
-  text-align: center;
-}
-
 .container {
   margin-bottom: 1.875rem;
   margin-top: 1.875rem;
@@ -144,7 +126,31 @@ footer {
   margin-top: 1rem;
 }
 
+pre {
+  background-color: rgb(211 211 211 / 0.25);
+  font-family: "Open Sans", sans-serif;
+  margin-left: 2rem;
+  max-width: 95%;
+  padding: 1rem;
+  white-space: pre-wrap;
+}
+
+code {
+  font-family: inherit;
+  font-size: 0.90em;
+}
+
+.inline-code {
+  background-color: rgb(211 211 211 / 0.25);
+  font-size: 1em;
+  font-weight: 700;
+}
+
 /* Footer styles */
+footer {
+  text-align: center;
+}
+
 footer p {
   margin: 0;
 }
@@ -154,10 +160,6 @@ footer p {
   /* Global styles */
   p {
     margin-left: 0.6rem;
-  }
-
-  pre {
-    margin-left: 1.4rem;
   }
   
   .container {
@@ -192,5 +194,9 @@ footer p {
   .content-div ol,
   .content-div ul {
     margin-left: 4.5rem;
+  }
+
+  pre {
+    margin-left: 1.4rem;
   }
 }
